@@ -1,0 +1,85 @@
+#imgPreview {
+	width: 200px; 
+	max-height: 200px;
+	display: block;
+}
+
+body{
+    background: black;   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 1px rgba(0, 0, 0, 0.705) solid;
+}
+
+.container{
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h2 {
+    font-weight: bold;
+    text-decoration: underline ;
+    color: white;
+    font-size: 5rem;
+}
+
+#bouton{
+    background-color: #0f581b;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+#bouton:hover{
+    letter-spacing: 6px;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+#fileToUpload {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.messagePHP{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+
+#effetImg{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    transition: 0.5s;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+    filter: grayscale(100%);
+}
+
+#effetImg:hover{
+    filter: grayscale(0);
+    transform:scale(1.4);
+   
+}
+
+.imageDiv {
+    justify-content: center;
+    background-color: #fff;
+    
+}
+
+.titleGal {
+    color: black;
+    font-size: 2em;
+}
