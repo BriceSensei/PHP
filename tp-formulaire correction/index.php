@@ -28,7 +28,6 @@ require_once 'controller_index.php';
             <div class="text-danger">
                 <!-- message d'erreur si pas validé -->
                 <span><?= isset($errorMessages['lastName']) ? $errorMessages['lastName'] : '' ?></span>
-
             </div>
         </div>
 
